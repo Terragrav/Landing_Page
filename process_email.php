@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             // 3. Admin email notification
             $admin_email = "terragrav.app@gmail.com";  // Your admin email
-            $admin_subject = "New Waitlist Signup for Empower";
+            $admin_subject = "New Waitlist Signup for Terragrav";
             $admin_message = "
              $email has signed up for Terragrav!
             ";
